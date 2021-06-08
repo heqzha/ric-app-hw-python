@@ -74,6 +74,7 @@ class HWXapp:
         (e.g., use_fake_sdl). The defaults for this function are for the Dockerized xapp.
         """
         self.createHandlers()
+        self._rmr_xapp.logger.info("HelloWorld starts...")
         self._rmr_xapp.run(thread)
 
     def stop(self):
