@@ -49,6 +49,7 @@ class HWXapp:
         """
         Function that runs at start and on every configuration file change.
         """
+        rmr_xapp.logger.info("test")
         rmr_xapp.logger.info("HWXapp.handle_config_change:: config: {}".format(config))
         rmr_xapp.config = config  # No mutex required due to GIL
 
