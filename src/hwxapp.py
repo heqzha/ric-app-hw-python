@@ -76,7 +76,7 @@ class HWXapp:
         """
         self.createHandlers()
         self._rmr_xapp.run(thread)
-        self._rmr_xapp.logger.info("HelloWorld starts...")
+        self._rmr_xapp.logger.info("HelloWorld v1.0.2 starts...")
 
     def stop(self):
         """
